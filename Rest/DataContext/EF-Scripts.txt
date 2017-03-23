@@ -1,0 +1,3 @@
+﻿Add-Migration -ConfigurationTypeName Rest.DataContext.Configuration -Name Init -ProjectName Rest -StartUpProjectName Rest -Verbose
+
+Update-Database -ProjectName Rest -ConfigurationTypeName Rest.DataContext.Configuration -StartUpProjectName Rest -Verbose 
